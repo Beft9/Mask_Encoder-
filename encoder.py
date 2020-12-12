@@ -37,7 +37,6 @@ def Mask_encoder(pil_image):
                         counter += 1;
             j += 1
         i += 1
-    print(i)
-    print(j)
+
     return str(encoded_data[:-1])
 
